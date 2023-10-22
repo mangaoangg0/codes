@@ -1,0 +1,62 @@
+*{
+    color: white;
+    margin:0%;
+    padding:0%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#title {
+    color: rgb(255, 254, 254);
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1{
+    text-align: center;
+}
+
+    body{
+        width: 100%;
+        height: 100%;
+        background-image: url("./wp12587974.webp");
+        background-size: fill;
+        background-position: center;
+    }
+
+h2 { 
+    margin: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.523);
+}
+
+div {
+    border: 2px solid rgb(9, 16, 241);
+    padding: 100px;
+    margin: 25px;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+
+}
+
+ul > li {
+    font-size: 25px;
+    background-color: black;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    background-color: white;
+    color: black;
+}
